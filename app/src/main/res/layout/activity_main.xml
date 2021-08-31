@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="enter your first name">
+    </EditText>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="enter your last name">
+    </EditText>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="enter your age">
+    </EditText>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="add"
+        >
+    </Button>
+
+    <EditText
+        android:id="@+id/displayId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:hint="enter name"></EditText>
+
+    <Button
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dislay"
+        >
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/fnames"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/lnames"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/agee"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+</LinearLayout>
